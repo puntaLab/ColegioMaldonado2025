@@ -1,0 +1,169 @@
+<!-- Guarda este archivo como index.html para subirlo fácilmente a GitHub Pages -->
+<!-- Crea una cuenta gratuita en GitHub y un nuevo repositorio público llamado por ejemplo agricultura-mujer-ciencia -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agricultura, la Mujer y la Ciencia</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8faf8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6ab04c, #badc58);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #6ab04c;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      border-left: 6px solid #6ab04c;
+      padding-left: 10px;
+      color: #222;
+    }
+
+    .intro {
+      background: #eafbea;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .juegos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .juego {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav a {
+        padding: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agricultura, la Mujer y la Ciencia</h1>
+    <p>Exposición interactiva creada por los estudiantes</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#temas">Temas</a>
+    <a href="#juegos">Juegos</a>
+    <a href="#creditos">Créditos</a>
+  </nav>
+
+  <main>
+    <section id="inicio" class="intro">
+      <h2>Introducción</h2>
+      <p>Esta exposición busca destacar el papel fundamental de la mujer en la ciencia y en la agricultura, mostrando cómo el conocimiento científico impulsa la producción sustentable y mejora la calidad de vida. A través de esta muestra, los estudiantes presentan sus juegos interactivos y reflexiones sobre estos temas.</p>
+    </section>
+
+    <section id="temas">
+      <h2>Temas de la exposición</h2>
+      <ul>
+        <li>El aporte de las mujeres científicas a la agricultura moderna.</li>
+        <li>El impacto de la ciencia en la producción sostenible.</li>
+        <li>Innovaciones tecnológicas en el campo.</li>
+        <li>Proyectos de investigación liderados por mujeres.</li>
+      </ul>
+    </section>
+
+    <section id="juegos">
+      <h2>Juegos creados por los niños</h2>
+      <div class="juegos">
+        <div class="juego">
+          <h3>Juego 1: La Granja Sostenible</h3>
+          <iframe src="https://arcade.makecode.com/---run?id=example1"></iframe>
+        </div>
+        <div class="juego">
+          <h3>Juego 2: Científicas del Futuro</h3>
+          <iframe src="https://arcade.makecode.com/---run?id=example2"></iframe>
+        </div>
+        <div class="juego">
+          <h3>Juego 3: Cultiva con Ciencia</h3>
+          <iframe src="https://arcade.makecode.com/---run?id=example3"></iframe>
+        </div>
+      </div>
+      <p>Puedes reemplazar los enlaces de los juegos con los proyectos reales desde MakeCode Arcade.</p>
+    </section>
+
+    <section id="creditos">
+      <h2>Créditos</h2>
+      <p>Proyecto creado por los estudiantes del taller de tecnología educativa, bajo la guía de la profesora María Kapek.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Exposición Agricultura, la Mujer y la Ciencia – PuntaLab</p>
+  </footer>
+</body>
+</html>
